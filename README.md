@@ -10,6 +10,7 @@ This is in a BETA phase, and there will probably be bugs.
 to setup, run the following commands in the root dir.
 
 npm install
+
 npm install --global typescript
 tsc
 
