@@ -1,0 +1,38 @@
+{
+  "name": "cgp-rip",
+  "version": "0",
+  "description": "Convert a CGP Online book to .pdf",
+  "main": "./lib/cli.js",
+  "types": "./lib/cli.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Teampuxty",
+  "license": "N/A",
+  "dependencies": {
+    "chalk": "^5.6.0",
+    "commander": "^9.5.0",
+    "got": "^12.6.1",
+    "image-size": "^1.2.1",
+    "pdf-merger-js": "^4.3.1",
+    "puppeteer": "^24.17.0",
+    "tough-cookie": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.0",
+    "@types/tough-cookie": "^4.0.2"
+  },
+  "bin": {
+    "cgp-rip": "lib/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Teampuxty/CGP-Rip/"
+  },
+  "bugs": {
+    "url": "https://github.com/Teampuxty/CGP-Rip/issues"
+  },
+  "homepage": "https://github.com/Teampuxty/CGP-Rip/blob/master/README.md",
+  "keywords": []
+}
