@@ -33,6 +33,9 @@ UNI - Unique identifier for the svg text files.
 
 
 
+To run, execute the following command:
+**node lib/cli.js -b <bookid> -p <pages> -q <quality (1-4) -u <UNI string>**
+
 Please report any issues/feedback on the subreddit: https://www.reddit.com/r/CGP_RIP_support/
 
 
